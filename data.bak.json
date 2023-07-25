@@ -1,0 +1,95 @@
+{
+  "picBed": {
+    "current": "githubPlus",
+    "uploader": "githubPlus",
+    "smms": {
+      "token": "qljrRWYGv7io8ptOuJwbPPLPKvtBaqst",
+      "backupDomain": "smms.app"
+    },
+    "github": {
+      "repo": "njzqq/image",
+      "branch": "main",
+      "token": "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",
+      "path": "img/",
+      "customUrl": "https://cdn.jsdelivr.net/gh/njzqq/image@main"
+    },
+    "list": [
+      {
+        "type": "tcyun",
+        "name": "腾讯云COS",
+        "visible": false
+      },
+      {
+        "type": "aliyun",
+        "name": "阿里云OSS",
+        "visible": false
+      },
+      {
+        "type": "smms",
+        "name": "SM.MS",
+        "visible": true
+      },
+      {
+        "type": "github",
+        "name": "GitHub",
+        "visible": true
+      },
+      {
+        "type": "qiniu",
+        "name": "七牛云",
+        "visible": false
+      },
+      {
+        "type": "imgur",
+        "name": "Imgur",
+        "visible": true
+      },
+      {
+        "type": "upyun",
+        "name": "又拍云",
+        "visible": false
+      }
+    ],
+    "imgur": {
+      "clientId": "336c51bcc6f5c02",
+      "proxy": "http://127.0.0.1:7890"
+    },
+    "githubPlus": {
+      "repo": "njzqq/image",
+      "branch": "main",
+      "token": "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",
+      "path": "img/",
+      "customUrl": "https://cdn.jsdelivr.net/gh/njzqq/image@main",
+      "origin": "github"
+    }
+  },
+  "settings": {
+    "shortKey": {
+      "picgo:upload": {
+        "enable": true,
+        "key": "CommandOrControl+Shift+P",
+        "name": "upload",
+        "label": "QUICK_UPLOAD"
+      }
+    },
+    "showUpdateTip": false,
+    "server": {
+      "port": 36677,
+      "host": "127.0.0.1",
+      "enable": true
+    },
+    "rename": true,
+    "privacyEnsure": true,
+    "pasteStyle": "markdown",
+    "uploadNotification": true
+  },
+  "needReload": false,
+  "picgoPlugins": {
+    "picgo-plugin-github-plus": true
+  },
+  "debug": true,
+  "PICGO_ENV": "GUI",
+  "picgo-plugin-github-plus": {
+    "lastSync": "2023-07-25 05:02:11"
+  }
+}
