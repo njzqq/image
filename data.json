@@ -1,0 +1,184 @@
+{
+  "picBed": {
+    "current": "githubPlus",
+    "uploader": "githubPlus",
+    "smms": {
+      "token": "qljrRWYGv7io8ptOuJwbPPLPKvtBaqst",
+      "backupDomain": "smms.app",
+      "_configName": "Default",
+      "_id": "0b9dd873-e059-4b21-9e9b-4a919610f124",
+      "_createdAt": 1690276141066,
+      "_updatedAt": 1690276141066
+    },
+    "github": {
+      "repo": "njzqq/image",
+      "branch": "main",
+      "token": "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",
+      "path": "img/",
+      "customUrl": "https://cdn.jsdelivr.net/gh/njzqq/image@main",
+      "_configName": "Default",
+      "_id": "86c0b6fd-2f32-4ca8-904c-584f831fc756",
+      "_createdAt": 1690276139987,
+      "_updatedAt": 1690276139987
+    },
+    "list": [
+      {
+        "type": "tcyun",
+        "name": "腾讯云COS",
+        "visible": false
+      },
+      {
+        "type": "aliyun",
+        "name": "阿里云OSS",
+        "visible": false
+      },
+      {
+        "type": "smms",
+        "name": "SM.MS",
+        "visible": true
+      },
+      {
+        "type": "github",
+        "name": "GitHub",
+        "visible": true
+      },
+      {
+        "type": "qiniu",
+        "name": "七牛云",
+        "visible": false
+      },
+      {
+        "type": "imgur",
+        "name": "Imgur",
+        "visible": true
+      },
+      {
+        "type": "upyun",
+        "name": "又拍云",
+        "visible": false
+      }
+    ],
+    "imgur": {
+      "clientId": "336c51bcc6f5c02",
+      "proxy": "http://127.0.0.1:7890",
+      "_configName": "Default",
+      "_id": "c3f10495-78f9-4ce9-8be3-96960670d2f5",
+      "_createdAt": 1690276137986,
+      "_updatedAt": 1690276222915,
+      "username": "cosxsinx",
+      "accessToken": "556ceb48f18d418957c82292395a1f90dec63f51",
+      "album": "image_1"
+    },
+    "githubPlus": {
+      "repo": "njzqq/image",
+      "branch": "main",
+      "token": "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",
+      "path": "img/",
+      "customUrl": "https://cdn.jsdelivr.net/gh/njzqq/image@main",
+      "origin": "github"
+    },
+    "webdavplist": {
+      "_configName": "Default",
+      "_id": "67315c72-c98f-4318-b9f0-6e7164313dc2",
+      "_createdAt": 1690276134526,
+      "_updatedAt": 1690276134526
+    }
+  },
+  "settings": {
+    "shortKey": {
+      "picgo:upload": {
+        "enable": true,
+        "key": "CommandOrControl+Shift+P",
+        "name": "upload",
+        "label": "QUICK_UPLOAD"
+      }
+    },
+    "showUpdateTip": false,
+    "server": {
+      "port": 36677,
+      "host": "127.0.0.1",
+      "enable": true
+    },
+    "rename": true,
+    "privacyEnsure": true,
+    "pasteStyle": "markdown",
+    "uploadNotification": true,
+    "isListeningClipboard": false,
+    "sync": {
+      "type": "github",
+      "username": "njzqq",
+      "repo": "image",
+      "branch": "main",
+      "token": "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",
+      "proxy": "",
+      "interval": 60
+    }
+  },
+  "needReload": false,
+  "picgoPlugins": {
+    "picgo-plugin-github-plus": true
+  },
+  "debug": true,
+  "PICGO_ENV": "GUI",
+  "picgo-plugin-github-plus": {
+    "lastSync": "2023-07-25 05:02:11"
+  },
+  "uploader": {
+    "webdavplist": {
+      "configList": [
+        {
+          "_configName": "Default",
+          "_id": "67315c72-c98f-4318-b9f0-6e7164313dc2",
+          "_createdAt": 1690276134526,
+          "_updatedAt": 1690276134526
+        }
+      ],
+      "defaultId": "67315c72-c98f-4318-b9f0-6e7164313dc2"
+    },
+    "imgur": {
+      "configList": [
+        {
+          "clientId": "336c51bcc6f5c02",
+          "proxy": "http://127.0.0.1:7890",
+          "_configName": "Default",
+          "_id": "c3f10495-78f9-4ce9-8be3-96960670d2f5",
+          "_createdAt": 1690276137986,
+          "_updatedAt": 1690276222915,
+          "username": "cosxsinx",
+          "accessToken": "556ceb48f18d418957c82292395a1f90dec63f51",
+          "album": "image_1"
+        }
+      ],
+      "defaultId": "c3f10495-78f9-4ce9-8be3-96960670d2f5"
+    },
+    "github": {
+      "configList": [
+        {
+          "repo": "njzqq/image",
+          "branch": "main",
+          "token": "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",
+          "path": "img/",
+          "customUrl": "https://cdn.jsdelivr.net/gh/njzqq/image@main",
+          "_configName": "Default",
+          "_id": "86c0b6fd-2f32-4ca8-904c-584f831fc756",
+          "_createdAt": 1690276139987,
+          "_updatedAt": 1690276139987
+        }
+      ],
+      "defaultId": "86c0b6fd-2f32-4ca8-904c-584f831fc756"
+    },
+    "smms": {
+      "configList": [
+        {
+          "token": "qljrRWYGv7io8ptOuJwbPPLPKvtBaqst",
+          "backupDomain": "smms.app",
+          "_configName": "Default",
+          "_id": "0b9dd873-e059-4b21-9e9b-4a919610f124",
+          "_createdAt": 1690276141066,
+          "_updatedAt": 1690276141066
+        }
+      ],
+      "defaultId": "0b9dd873-e059-4b21-9e9b-4a919610f124"
+    }
+  }
+}
